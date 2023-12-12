@@ -1,0 +1,25 @@
+canvas{
+    border:5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 2s;
+    margin-top: 60px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 40px rgb(251, 255, 0) ;
+    }
+    to{
+        box-shadow: 1px 1px 40px rgb(255, 0, 136);
+    }
+}
+body{
+    background-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+}
+h1{
+    color:rgb(0, 204, 255);
+}
+h3{
+   color:black;
+}
